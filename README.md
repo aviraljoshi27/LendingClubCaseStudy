@@ -1,5 +1,7 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> The company, as the largest online loan marketplace, seeks to minimize financial losses caused by loan defaults (credit loss). Loan applicants classified as 'charged-off' represent defaulters, leading to significant monetary losses. To address this, the company aims to identify the key factors (driver variables) influencing loan defaults.
+
+> By leveraging exploratory data analysis (EDA), the objective is to identify risky loan applicants and uncover strong predictors of default. Insights from this analysis will assist the company in making informed decisions for portfolio and risk assessment, ultimately reducing credit loss and improving operational efficiency.
 
 
 ## Table of Contents
@@ -8,45 +10,48 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- This project aims to help an online loan marketplace reduce financial losses caused by loan defaults. By analyzing historical loan data through exploratory data analysis (EDA), the project seeks to identify key factors that indicate a borrower's likelihood to default. These insights will assist the company in improving risk assessment, minimizing credit losses, and optimizing loan portfolio management.
+ 
+- The project focuses on minimizing credit losses for an online loan marketplace by identifying key factors leading to loan defaults. Using historical data and exploratory data analysis (EDA), the aim is to recognize high-risk loan applicants, improve risk assessment, and optimize portfolio management to reduce financial losses.
+ 
+- The business problem this project aims to solve is the minimization of credit losses by identifying risky loan applicants who are likely to default. Loan defaults significantly impact the company's profitability, and understanding the key factors that lead to defaults will enable the company to better assess risk, reduce the issuance of high-risk loans, and improve overall portfolio performance. This will enhance financial stability and operational efficiency while maintaining competitive interest rates for borrowers.
+  
+- We have used loan.csv that has been given in the repository.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Our research indicates that borrowers with the following characteristics are significantly more likely to default on their loans:
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Low Income: Borrowers earning below a defined salary threshold.
+
+- Purpose of Loan: Loans taken specifically for debt consolidation.
+
+- Loan Amount: Borrowers seeking loans of less than $30,000.
+
+- Loan Grade: Loans with a grade equal to or above the mid-tier (e.g., E or higher).
+
+- Interest Rate: Loans with interest rates exceeding 15%, reflecting prior credit challenges.
+
+
+
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas 2.1.4
+- numpy 1.26.4
+- matplotlib 3.8.0
+- seaborn 0.12.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- References : google.com youtube.com
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by @aviraljoshi27 - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
